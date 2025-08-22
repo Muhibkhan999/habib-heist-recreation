@@ -61,6 +61,16 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				wiki: {
+					blue: 'hsl(var(--wiki-blue))',
+					'blue-hover': 'hsl(var(--wiki-blue-hover))',
+					red: 'hsl(var(--wiki-red))',
+					gray: 'hsl(var(--wiki-gray))',
+					'light-gray': 'hsl(var(--wiki-light-gray))',
+					border: 'hsl(var(--wiki-border))',
+					sidebar: 'hsl(var(--wiki-sidebar))',
+					header: 'hsl(var(--wiki-header))'
 				}
 			},
 			borderRadius: {
