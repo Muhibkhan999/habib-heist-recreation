@@ -26,7 +26,7 @@ const Index = () => {
                   <a href="#" className="text-wiki-blue hover:underline">Bank Al Habib</a> located on{" "}
                   <a href="#" className="text-wiki-blue hover:underline">Shahrah-e-Faisal</a> in{" "}
                   <a href="#" className="text-wiki-blue hover:underline">Karachi</a>,{" "}
-                  <a href="#" className="text-wiki-blue hover:underline">Pakistan</a>. It is considered the biggest bank robbery in history of Pakistan. Police say the gang was led by one of the bank's guards. The robbers broke into the main vault and stole foreign currency worth 10 billion rupees ($3.7 million).
+                  <a href="#" className="text-wiki-blue hover:underline">Pakistan</a>. It is considered the biggest bank robbery in history of Pakistan. Police say the gang was led by one of the bank's guards. The robbers broke into the main vault and stole foreign currency worth 10 billion rupees ($3.7 million). During the robbery, 4 people were injured, including 2 security guards.
                   <sup className="text-wiki-blue">
                     <a href="#cite_note-1" className="hover:underline">[1]</a>
                   </sup>
@@ -50,9 +50,16 @@ const Index = () => {
                 
                 <p>
                   During the investigation, authorities discovered that <strong>Miss Adil Danya's</strong> bank account was compromised and used by two students from{" "}
-                  <a href="#" className="text-wiki-blue hover:underline">Orchid School</a>: <strong>Farzam Hassan</strong> and an <strong>anonymous user</strong>. The investigation also revealed that the bank's admin password had been leaked, which facilitated the unauthorized access to the banking system.
+                  <a href="#" className="text-wiki-blue hover:underline">Orchid School</a>: <strong>Farzam Hassan</strong> and an <strong>anonymous user</strong>. The investigation also revealed that the bank's admin password had been leaked, which facilitated the unauthorized access to the banking system. Most critically, these two users provided CCTV footage to the robbers, which enabled them to plan and execute the heist.
                   <sup className="text-wiki-blue">
                     <a href="#cite_note-3" className="hover:underline">[3]</a>
+                  </sup>
+                </p>
+                
+                <p>
+                  The security breach resulted in 4 casualties during the robbery, with 2 security guards among the injured victims. The CCTV footage provided by the students allowed the robbers to identify security blind spots and guard positions, making the attack more coordinated and dangerous.
+                  <sup className="text-wiki-blue">
+                    <a href="#cite_note-4" className="hover:underline">[4]</a>
                   </sup>
                 </p>
               </div>
@@ -105,6 +112,16 @@ const Index = () => {
                       "Bank security breach reveals student involvement and admin password leak"
                     </a>
                     . <em>Dawn News</em>. Retrieved 30 August 2025.
+                  </li>
+                  <li>
+                    <span className="font-bold">
+                      <a href="#cite_ref-4" className="text-wiki-blue hover:underline">^</a>
+                    </span>{" "}
+                    Police Investigation Report (30 August 2025).{" "}
+                    <a href="#" className="text-wiki-blue hover:underline">
+                      "Students provided CCTV footage to bank robbers, 4 injured including 2 guards"
+                    </a>
+                    . <em>The Express Tribune</em>. Retrieved 31 August 2025.
                   </li>
                 </ol>
               </div>
