@@ -7,7 +7,7 @@ export const WikiPageHeader = ({ title }: { title: string }) => {
       {/* Page title */}
       <div className="px-6 py-4">
         <div className="flex items-center justify-between">
-          <h1 className="text-3xl font-normal text-foreground">{title}</h1>
+          <h1 className="text-4xl font-normal text-foreground">{title}</h1>
           <div className="flex items-center gap-2">
             <Button variant="ghost" size="sm" className="text-wiki-blue hover:text-wiki-blue-hover">
               <Globe className="h-4 w-4 mr-1" />
@@ -20,12 +20,12 @@ export const WikiPageHeader = ({ title }: { title: string }) => {
       
       {/* Page tabs */}
       <div className="px-6">
-        <div className="flex items-center gap-6 text-sm">
-          <Button variant="ghost" size="sm" className="text-foreground border-b-2 border-foreground rounded-none">
+        <div className="flex items-center gap-6 text-base">
+          <Button variant="ghost" size="sm" className="text-foreground border-b-2 border-foreground rounded-none text-base">
             <FileText className="h-4 w-4 mr-1" />
             Article
           </Button>
-          <Button variant="ghost" size="sm" className="text-wiki-blue hover:text-wiki-blue-hover">
+          <Button variant="ghost" size="sm" className="text-wiki-blue hover:text-wiki-blue-hover text-base">
             <MessageSquare className="h-4 w-4 mr-1" />
             Talk
           </Button>
@@ -35,23 +35,23 @@ export const WikiPageHeader = ({ title }: { title: string }) => {
       {/* Action tabs */}
       <div className="px-6 py-2 border-t border-wiki-border bg-background">
         <div className="flex items-center justify-between">
-          <div className="flex items-center gap-6 text-sm">
-            <Button variant="ghost" size="sm" className="text-foreground">
+          <div className="flex items-center gap-6 text-base">
+            <Button variant="ghost" size="sm" className="text-foreground text-base">
               Read
             </Button>
-            <Button variant="ghost" size="sm" className="text-wiki-blue hover:text-wiki-blue-hover">
+            <Button variant="ghost" size="sm" className="text-wiki-blue hover:text-wiki-blue-hover text-base">
               Edit
             </Button>
-            <Button variant="ghost" size="sm" className="text-wiki-blue hover:text-wiki-blue-hover">
+            <Button variant="ghost" size="sm" className="text-wiki-blue hover:text-wiki-blue-hover text-base">
               View history
             </Button>
-            <Button variant="ghost" size="sm" className="text-wiki-blue hover:text-wiki-blue-hover">
+            <Button variant="ghost" size="sm" className="text-wiki-blue hover:text-wiki-blue-hover text-base">
               Tools
               <ChevronDown className="h-3 w-3 ml-1" />
             </Button>
           </div>
           
-          <div className="flex items-center gap-4 text-sm">
+          <div className="flex items-center gap-4 text-base">
             <div className="text-wiki-gray">Appearance</div>
             <div className="flex items-center gap-2">
               <div className="flex border border-wiki-border rounded">

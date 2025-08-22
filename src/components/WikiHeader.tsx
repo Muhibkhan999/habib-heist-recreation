@@ -12,10 +12,10 @@ export const WikiHeader = () => {
             <Menu className="h-4 w-4" />
           </Button>
           <div className="flex items-center gap-2">
-            <img src="/favicon.ico" alt="Wikipedia" className="h-8 w-8" />
+            <img src="/wikipedia-logo.png" alt="Wikipedia" className="h-12 w-12" />
             <div>
-              <div className="font-bold text-lg">WIKIPEDIA</div>
-              <div className="text-xs text-wiki-gray">The Free Encyclopedia</div>
+              <div className="font-bold text-xl">WIKIPEDIA</div>
+              <div className="text-sm text-wiki-gray">The Free Encyclopedia</div>
             </div>
           </div>
         </div>
@@ -24,21 +24,21 @@ export const WikiHeader = () => {
           <div className="flex items-center gap-2">
             <Input 
               placeholder="Search Wikipedia" 
-              className="w-64 h-8 text-sm border-wiki-border focus:border-wiki-blue"
+              className="w-64 h-10 text-base border-wiki-border focus:border-wiki-blue"
             />
-            <Button variant="outline" size="sm" className="h-8 px-3 border-wiki-border">
+            <Button variant="outline" size="sm" className="h-10 px-4 text-base border-wiki-border">
               Search
             </Button>
           </div>
           
-          <div className="flex items-center gap-2 text-wiki-blue text-sm">
-            <Button variant="ghost" size="sm" className="text-wiki-blue hover:text-wiki-blue-hover">
+          <div className="flex items-center gap-2 text-wiki-blue text-base">
+            <Button variant="ghost" size="sm" className="text-wiki-blue hover:text-wiki-blue-hover text-base">
               Donate
             </Button>
-            <Button variant="ghost" size="sm" className="text-wiki-blue hover:text-wiki-blue-hover">
+            <Button variant="ghost" size="sm" className="text-wiki-blue hover:text-wiki-blue-hover text-base">
               Create account
             </Button>
-            <Button variant="ghost" size="sm" className="text-wiki-blue hover:text-wiki-blue-hover">
+            <Button variant="ghost" size="sm" className="text-wiki-blue hover:text-wiki-blue-hover text-base">
               Log in
             </Button>
             <Button variant="ghost" size="sm" className="p-1">

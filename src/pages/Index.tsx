@@ -17,10 +17,10 @@ const Index = () => {
           
           {/* Article content */}
           <div className="max-w-4xl mx-auto px-6 py-6">
-            <div className="prose prose-sm max-w-none">
-              <p className="text-xs text-wiki-gray mb-4">From Wikipedia, the free encyclopedia</p>
+            <div className="prose prose-lg max-w-none">
+              <p className="text-sm text-wiki-gray mb-4">From Wikipedia, the free encyclopedia</p>
               
-              <div className="space-y-4 text-sm leading-relaxed">
+              <div className="space-y-6 text-lg leading-relaxed">
                 <p>
                   The <strong>2025 Karachi bank robbery</strong> occurred on August 22, 2025 at 1:30 PM when robbers stole US$3.7 million from the main branch of{" "}
                   <a href="#" className="text-wiki-blue hover:underline">Bank Al Habib</a> located on{" "}
@@ -39,26 +39,42 @@ const Index = () => {
                   </sup>
                   {" "}on 28 August 2025.
                 </p>
+                
+                {/* Investigation section */}
+                <h2 id="investigation" className="text-2xl font-normal border-b border-wiki-border pb-2 mb-4 mt-8">
+                  Investigation
+                  <span className="text-sm ml-2">
+                    <a href="#" className="text-wiki-blue hover:underline">[edit]</a>
+                  </span>
+                </h2>
+                
+                <p>
+                  During the investigation, authorities discovered that <strong>Miss Adil Danya's</strong> bank account was compromised and used by two students from{" "}
+                  <a href="#" className="text-wiki-blue hover:underline">Orchid School</a>: <strong>Farzam Hassan</strong> and an <strong>anonymous user</strong>. The investigation also revealed that the bank's admin password had been leaked, which facilitated the unauthorized access to the banking system.
+                  <sup className="text-wiki-blue">
+                    <a href="#cite_note-3" className="hover:underline">[3]</a>
+                  </sup>
+                </p>
               </div>
               
               {/* References section */}
               <div className="mt-8">
-                <h2 id="references" className="text-lg font-normal border-b border-wiki-border pb-1 mb-4">
+                <h2 id="references" className="text-2xl font-normal border-b border-wiki-border pb-2 mb-4">
                   References
-                  <span className="text-xs ml-2">
+                  <span className="text-sm ml-2">
                     <a href="#" className="text-wiki-blue hover:underline">[edit]</a>
                   </span>
                 </h2>
                 
                 {/* Banks portal box */}
-                <div className="bg-wiki-light-gray border border-wiki-border p-3 mb-4 w-64">
+                <div className="bg-wiki-light-gray border border-wiki-border p-4 mb-6 w-72">
                   <div className="flex items-center gap-2">
-                    <span className="text-2xl">🏦</span>
-                    <a href="#" className="text-wiki-blue hover:underline font-bold">Banks portal</a>
+                    <span className="text-3xl">🏦</span>
+                    <a href="#" className="text-wiki-blue hover:underline font-bold text-lg">Banks portal</a>
                   </div>
                 </div>
                 
-                <ol className="space-y-2 text-xs">
+                <ol className="space-y-3 text-sm">
                   <li>
                     <span className="font-bold">
                       <a href="#cite_ref-1" className="text-wiki-blue hover:underline">^</a>
@@ -80,27 +96,41 @@ const Index = () => {
                     </a>
                     . <em>The Nation</em>. 2025-08-28. Retrieved 2025-08-28.
                   </li>
+                  <li>
+                    <span className="font-bold">
+                      <a href="#cite_ref-3" className="text-wiki-blue hover:underline">^</a>
+                    </span>{" "}
+                    Security Report (29 August 2025).{" "}
+                    <a href="#" className="text-wiki-blue hover:underline">
+                      "Bank security breach reveals student involvement and admin password leak"
+                    </a>
+                    . <em>Dawn News</em>. Retrieved 30 August 2025.
+                  </li>
                 </ol>
               </div>
               
               {/* Categories */}
               <div className="mt-8 pt-4 border-t border-wiki-border">
-                <div className="bg-wiki-light-gray border border-wiki-border p-3">
-                  <span className="font-bold text-xs">Categories:</span>
-                  <div className="flex flex-wrap gap-1 mt-1">
-                    <a href="#" className="text-wiki-blue hover:underline text-xs">2025 crimes in Pakistan</a>
-                    <span className="text-xs">|</span>
-                    <a href="#" className="text-wiki-blue hover:underline text-xs">Bank robberies</a>
-                    <span className="text-xs">|</span>
-                    <a href="#" className="text-wiki-blue hover:underline text-xs">History of Karachi (1947–present)</a>
-                    <span className="text-xs">|</span>
-                    <a href="#" className="text-wiki-blue hover:underline text-xs">Crime in Karachi</a>
-                    <span className="text-xs">|</span>
-                    <a href="#" className="text-wiki-blue hover:underline text-xs">2020s in Karachi</a>
-                    <span className="text-xs">|</span>
-                    <a href="#" className="text-wiki-blue hover:underline text-xs">Robberies in Pakistan</a>
-                    <span className="text-xs">|</span>
-                    <a href="#" className="text-wiki-blue hover:underline text-xs">August 2025 in Pakistan</a>
+                <div className="bg-wiki-light-gray border border-wiki-border p-4">
+                  <span className="font-bold text-sm">Categories:</span>
+                  <div className="flex flex-wrap gap-1 mt-2 text-sm">
+                    <a href="#" className="text-wiki-blue hover:underline text-sm">2025 crimes in Pakistan</a>
+                    <span className="text-sm">|</span>
+                    <a href="#" className="text-wiki-blue hover:underline text-sm">Bank robberies</a>
+                    <span className="text-sm">|</span>
+                    <a href="#" className="text-wiki-blue hover:underline text-sm">History of Karachi (1947–present)</a>
+                    <span className="text-sm">|</span>
+                    <a href="#" className="text-wiki-blue hover:underline text-sm">Crime in Karachi</a>
+                    <span className="text-sm">|</span>
+                    <a href="#" className="text-wiki-blue hover:underline text-sm">2020s in Karachi</a>
+                    <span className="text-sm">|</span>
+                    <a href="#" className="text-wiki-blue hover:underline text-sm">Robberies in Pakistan</a>
+                    <span className="text-sm">|</span>
+                    <a href="#" className="text-wiki-blue hover:underline text-sm">August 2025 in Pakistan</a>
+                    <span className="text-sm">|</span>
+                    <a href="#" className="text-wiki-blue hover:underline text-sm">Orchid School</a>
+                    <span className="text-sm">|</span>
+                    <a href="#" className="text-wiki-blue hover:underline text-sm">Cybercrime in Pakistan</a>
                   </div>
                 </div>
               </div>
